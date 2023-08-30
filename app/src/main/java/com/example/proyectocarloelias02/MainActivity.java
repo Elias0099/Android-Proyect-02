@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = passwordEditText.getText().toString();
 
                 // Verificar si el usuario y la contraseña coinciden
-                if (username.equals("carlo") && password.equals("gabriel")) {
+                if (username.equals("carlo") && password.equals("eliasgay")) {
                     Intent intent = new Intent(MainActivity.this, NavigationDraw.class);
                     startActivity(intent);
                 } else {

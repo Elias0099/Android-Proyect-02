@@ -30,7 +30,6 @@
         android:background="@drawable/style_borde_edittext"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
         android:textAllCaps="true"
         app:layout_constraintBottom_toTopOf="@+id/passtext"
         app:layout_constraintEnd_toEndOf="parent"

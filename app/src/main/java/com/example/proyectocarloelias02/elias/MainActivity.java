@@ -1,4 +1,4 @@
-package com.example.proyectocarloelias02;
+package com.example.proyectocarloelias02.elias;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.proyectocarloelias02.R;
+import com.example.proyectocarloelias02.carlo.NavigationDraw;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -25,6 +25,18 @@
             android:name=".carlo.NavigationDraw"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".carlo.CardView"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".elias.Menu"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".elias.Tablelayout"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>

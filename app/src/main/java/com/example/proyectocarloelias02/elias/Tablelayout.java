@@ -1,23 +1,24 @@
-package com.example.proyectocarloelias02.carlo;
-
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.proyectocarloelias02.elias;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.proyectocarloelias02.R;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class NavigationDraw extends AppCompatActivity {
+import com.example.proyectocarloelias02.R;
+import com.example.proyectocarloelias02.carlo.CardView;
+import com.example.proyectocarloelias02.carlo.NavigationDraw;
+
+public class Tablelayout extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.navigationdraw_main);
+        setContentView(R.layout.tablayout_main);
 
-        Button backButton = findViewById(R.id.backButton);
+        Button backButton = findViewById(R.id.backbutton);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,14 +27,15 @@ public class NavigationDraw extends AppCompatActivity {
             }
         });
 
-        Button goToCarViewButton = findViewById(R.id.cardview);
+        Button goToCarViewButton = findViewById(R.id.menu);
         goToCarViewButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Iniciar una nueva actividad (carview_)
-                Intent intent = new Intent(NavigationDraw.this, CardView.class);
+                Intent intent = new Intent(Tablelayout.this, Menu.class);
                 startActivity(intent);
             }
         });
+
     }
 }

@@ -52,6 +52,7 @@ public class CardView extends AppCompatActivity {
         }
     }
 
+    //hola uwu
     @Override
     public void onBackPressed() {
         if (drawerLayout.isDrawerOpen(GravityCompat.START)) {

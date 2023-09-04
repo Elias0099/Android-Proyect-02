@@ -23,11 +23,6 @@
             android:icon="@drawable/nav_button"
             android:title="Button Navigation"/>
 
-        <item
-            android:title="">
-        </item>
-
-
     </group>
 
     <item

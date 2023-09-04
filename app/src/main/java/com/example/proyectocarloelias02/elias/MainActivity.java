@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // Verificar si el usuario y la contraseña coinciden
                 if (username.equals("1") && password.equals("1")) {
-                    Intent intent = new Intent(MainActivity.this, CardView.class);
+                    Intent intent = new Intent(MainActivity.this, Menu.class);
                     startActivity(intent);
                 } else {
                     Toast.makeText(MainActivity.this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();

@@ -15,26 +15,12 @@ public class CardView extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.cardview_main);
+        setContentView(R.layout.menu_main);
+        setContentView(R.layout.nav_header);
 
-        Button backButton = findViewById(R.id.backbutton);
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Cierra la actividad actual y regresa a la actividad anterior
-                finish();
-            }
-        });
 
-        Button goToCarViewButton = findViewById(R.id.tablelayout);
-        goToCarViewButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Iniciar una nueva actividad (carview_)
-                Intent intent = new Intent(CardView.this, Tablelayout.class);
-                startActivity(intent);
-            }
-        });
+
+
     }
 
 

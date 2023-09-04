@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.proyectocarloelias02.R;
+import com.example.proyectocarloelias02.carlo.CardView;
 import com.example.proyectocarloelias02.carlo.NavigationDraw;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 String password = passwordEditText.getText().toString();
 
                 // Verificar si el usuario y la contraseña coinciden
-                if (username.equals("carlo") && password.equals("eliasgay")) {
-                    Intent intent = new Intent(MainActivity.this, NavigationDraw.class);
+                if (username.equals("1") && password.equals("1")) {
+                    Intent intent = new Intent(MainActivity.this, CardView.class);
                     startActivity(intent);
                 } else {
                     Toast.makeText(MainActivity.this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
